@@ -1,0 +1,39 @@
+﻿已經開始建置於 2014/3/4 下午 03:25:59。
+     1>節點 2 (build 目標) 上的專案 "D:\Course_Physical Based Animation\Assignment 3\hw2\PBD_starterkit\PBD_starterkit\PositionBasedDynamics\PositionBasedDynamics.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\PositionBasedDynamics.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../tinyxml /I../glm /I../glew/include /I../glfw/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\main.cpp
+         main.cpp
+     1>d:\course_physical based animation\assignment 3\hw2\pbd_starterkit\pbd_starterkit\glm\core\func_common.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\course_physical based animation\assignment 3\hw2\pbd_starterkit\pbd_starterkit\glm\core\func_common.inl : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\course_physical based animation\assignment 3\hw2\pbd_starterkit\pbd_starterkit\glm\core\func_integer.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\course_physical based animation\assignment 3\hw2\pbd_starterkit\pbd_starterkit\positionbaseddynamics\source\main.cpp(344): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>d:\course_physical based animation\assignment 3\hw2\pbd_starterkit\pbd_starterkit\positionbaseddynamics\source\main.cpp(365): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 請參閱 'fopen' 的宣告
+         所有輸出都是最新的。
+       ManifestResourceCompile:
+         所有輸出都是最新的。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Course_Physical Based Animation\Assignment 3\hw2\PBD_starterkit\PBD_starterkit\Debug\PositionBasedDynamics.exe" /INCREMENTAL /NOLOGO /LIBPATH:../glew/lib /LIBPATH:../glfw/lib /LIBPATH:../tinyxml tinyxmld_STL.lib glew32.lib glu32.lib opengl32.lib glfw.lib glfwdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PositionBasedDynamics.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Course_Physical Based Animation\Assignment 3\hw2\PBD_starterkit\PBD_starterkit\Debug\PositionBasedDynamics.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Course_Physical Based Animation\Assignment 3\hw2\PBD_starterkit\PBD_starterkit\Debug\PositionBasedDynamics.lib" /MACHINE:X86 Debug\PositionBasedDynamics.exe.embed.manifest.res
+         Debug\cloth_sim.obj
+         Debug\constraint.obj
+         Debug\main.obj
+         Debug\scene.obj
+         Debug\stb_image.obj
+         Debug\stb_image_write.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\PositionBasedDynamics.exe.embed.manifest" /manifest Debug\PositionBasedDynamics.exe.intermediate.manifest
+         所有輸出都是最新的。
+       LinkEmbedManifest:
+         所有輸出都是最新的。
+         PositionBasedDynamics.vcxproj -> D:\Course_Physical Based Animation\Assignment 3\hw2\PBD_starterkit\PBD_starterkit\Debug\PositionBasedDynamics.exe
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\PositionBasedDynamics.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\PositionBasedDynamics.lastbuildstate"。
+     1>專案 "D:\Course_Physical Based Animation\Assignment 3\hw2\PBD_starterkit\PBD_starterkit\PositionBasedDynamics\PositionBasedDynamics.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:04.84
